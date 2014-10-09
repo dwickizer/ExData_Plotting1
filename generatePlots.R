@@ -3,8 +3,11 @@
 #
 # Calls 5 functions, in this order:
 #
-#   readData ():        Reads in the file "./household_power_consumption.txt" and returns a data frame, 
-#                       powerData for use in the graph plotting functions
+#   readData ():        Extracts the portion of data we are interested in from the file 
+#                       "./household_power_consumption.txt" and creates a small working file called 
+#                       myPowerData.txt. That function also cleans the data, putting it the proper 
+#                       format and returns a data frame called **powerData** for use in the plotting 
+#                       functions
 #
 #   plot1 (powerData):  Plots a histogram of Global Active Power (kilowatts) on the x-axis vs
 #                       frequency (y-axis) to a bitmap file called "plot1.png"

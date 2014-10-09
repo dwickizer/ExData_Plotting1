@@ -1,8 +1,8 @@
 
 # function readData()
 #
-# Reads in and processes data from ./household_power_consumption.txt file using 
-# For two days, 2/1/2007 and 2/2/2007, and returns a data frame (called powerData 
+# Extracts and cleans data of interest from ./household_power_consumption.txt file
+# for two days, 2/1/2007 and 2/2/2007, and returns a data frame (called powerData 
 # within the function).
 # 
 # This assumes the underlying operating system is Unix
