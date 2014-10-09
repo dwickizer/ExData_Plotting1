@@ -19,7 +19,7 @@ Information about the data used can be found in the associated **CodeBook.md** f
 
 ##### Reading in the Data
 
-A quick calculation showed that 2,075,259 rows x 8 columns x 8 bytes/element (assuming double precision real numbers) would result in **126.7 MiB**.  For safety, it is usually a good idea to double that number; so we would be looking at **253.4 MiB**, which would fit easily in the 8 GB of RAM I have on my Mac.  However, just because you CAN do something, doesn't mean you SHOULD.
+A quick calculation showed that 2,075,259 rows x 9 columns x 8 bytes/element (assuming double precision real numbers) would result in **142.5 MiB**.  For safety, it is usually a good idea to double that number; so we would be looking at **285 MiB**, which would fit easily in the 8 GB of RAM I have on my Mac.  However, just because you CAN do something, doesn't mean you SHOULD.
 
 In this case, we are only interested in two days of data out of 4 years worth. Increasingly, in the real world, datasets are HUGE (often multiple TiB in size). When analytically searching for the proverbial "needle" in the "haystack", it is not practical to load the whole "haystack" into memory.  Therefore, even though I had plenty of memory on my Mac, I decided it would be worthwhile to investigate the harder problem: Extracting only the data I needed and cleanng that up.
 There were a number approaches I considered:
